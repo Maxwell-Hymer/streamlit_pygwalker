@@ -1,6 +1,6 @@
-from pygwalker.api.streamlit import StreamlitRenderer
 import pandas as pd
 import streamlit as st
+from pygwalker.api.streamlit import StreamlitRenderer
 
 # Function to load data from selected file
 def load_data(file):
